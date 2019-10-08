@@ -11,7 +11,7 @@ class Calculadora {
         } else if (this.tipo == '*') {
             this.multiplicacao();
         } else if (this.tipo == '/') {
-            this.disisao();
+            this.divisao();
         }
     }
 
@@ -32,7 +32,7 @@ class Calculadora {
         console.log(resultadoMultiplicao)
     }
 
-    disisao() {
+    divisao() {
         const resultadoDivisao = this.nums.reduce((total, proximo) => total / proximo);
         console.log(resultadoDivisao)
     }
