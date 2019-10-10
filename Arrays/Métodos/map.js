@@ -1,7 +1,7 @@
-const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+/* const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 dobroMenoresQue10 = array.map(item => item * 2).filter(item => item < 10).reduce((total, prox) => total + prox);
-console.log(dobroMenoresQue10)
+console.log(dobroMenoresQue10) */
 
 /*const dbarray = [];
 
@@ -19,8 +19,14 @@ console.log('Lista com os pares: ' + dbarray)*/
  //   return console.log(item, index)
 //})
 
-const map = array.map(function(item, index) {
+/* const map = array.map(function(item, index) {
     return console.log(`Posição ${index} - ${item}`)
 })
 
-const map2 = array.map((item, index) => console.log(`Posição ${index} - ${item}`));
+const map2 = array.map((item, index) => console.log(`Posição ${index} - ${item}`)); */
+
+const nomes = ['Eduardo', 'JavaScript', 'Developer'];
+
+const nomesMaiusculos = nomes.map(nome => nome.toUpperCase())
+
+console.log(nomesMaiusculos)
