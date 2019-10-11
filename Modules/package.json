@@ -1,0 +1,16 @@
+{
+  "name": "modules",
+  "version": "1.0.0",
+  "description": "Aula de módulos do canal YouTube Programador a Bordo",
+  "main": "js/main.js",
+  "scripts": {
+    "test": "test",
+    "start": "webpack --watch --config dev.webpack.config.js"
+  },
+  "author": "Ayrton Teshima, Programador a Bordo",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  }
+}
