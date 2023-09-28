@@ -45,7 +45,7 @@ This repository is organized into various folders, each focusing on a specific a
 1. Clone this repository to your local machine:
 
    ```shell
-   git clone [repository-url]
+   git clone https://github.com/EduardoAlbert/javascript-es6.git
   
 2. Explore the folders that interest you and dive into the specific topics you want to learn or practice.
 
